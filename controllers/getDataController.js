@@ -12,7 +12,7 @@ async function root(req, res) {
 //    let url = `https://api.openweathermap.org/data/2.5/weather?q=hamburg&units=metric&appid=${envWeather}`
 //    const result = await axios.get(url);
 
-//    console.log(result)
+//    console.log(reult)
 
     for (let i = 0; i < travelData.length; i++) {
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${travelData[i].city}&units=metric&appid=${envWeather}`
