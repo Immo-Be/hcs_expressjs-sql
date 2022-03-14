@@ -1,0 +1,57 @@
+[
+
+
+    {
+        "city": "Hamburg",
+        "start": "2018-01-30",
+        "end": "2022-05-09",
+        "description": "Hamburg lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque aliquid magnam sed in inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
+        "username": "Immo",
+        "mood": null,
+        "title": "\"Home is where your dog is\" - Aristoteles",
+        "img": "https://cdn.pixabay.com/photo/2019/10/23/06/30/hamburg-4570577_960_720.jpg"
+    },
+    {
+        "city": "Ottawa",
+        "start": "2011-08-01",
+        "end": "2012-02-29",
+        "description": "Ottawa lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque aliquid magnam sed in inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
+        "username": "Immo",
+        "mood": null,
+        "title": "Best place for an exchange. Canadian style!",
+        "img": "https://cdn.pixabay.com/photo/2019/11/21/04/05/fall-4641619_960_720.jpg"
+    },
+    {
+        "city": "Denpasar",
+        "start": "2015-07-30",
+        "end": "2016-08-24",
+        "description": "Denpasar lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque aliquid magnam sed in inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
+        "username": "Immo",
+        "mood": null,
+        "title": "Nice beaches, not quite paradise though",
+        "img": "https://cdn.pixabay.com/photo/2020/04/30/02/14/bali-5111131_960_720.jpg"
+    },
+    {
+        "city": "Hongkong",
+        "start": "2015-06-30",
+        "end": "2015-07-29",
+        "description": "Hongkong lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque aliquid magnam sed in inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
+        "username": "Immo",
+        "mood": null,
+        "title": "Free HK! 🇭🇰",
+        "img": "https://cdn.pixabay.com/photo/2020/12/17/00/43/skyscrapers-5838029_960_720.jpg"
+    },
+
+    {
+        "city": "Santiago de Chile",
+        "start": "2016-05-29",
+        "end": "2017-01-12",
+        "description": "Santiago de Chile lorem ipsum dolor sit amet. Sit inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
+        "username": "Immo",
+        "mood": null,
+        "title": "Student life in Chile is lit 🔥",
+        "img": "https://cdn.pixabay.com/photo/2021/06/01/16/15/island-6302137_960_720.jpg"
+    }
+
+
+]
