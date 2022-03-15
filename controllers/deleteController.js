@@ -7,7 +7,7 @@ function root(req, res) {
     
     travelData.splice(position, 1);
 
-    res.json("Thanks");
+    res.json("Trip successfully deleted");
 };
 
 module.exports = {
