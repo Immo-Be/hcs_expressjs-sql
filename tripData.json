@@ -21,16 +21,6 @@
         "title": "Best place for an exchange. Canadian style!",
         "img": "https://cdn.pixabay.com/photo/2019/11/21/04/05/fall-4641619_960_720.jpg"
     },
-    {
-        "city": "Hongkong",
-        "start": "2015-06-30",
-        "end": "2015-07-29",
-        "description": "Hongkong lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque aliquid magnam sed in inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
-        "username": "Immo",
-        "mood": null,
-        "title": "Free HK! 🇭🇰",
-        "img": "https://cdn.pixabay.com/photo/2020/12/17/00/43/skyscrapers-5838029_960_720.jpg"
-    },
 
     {
         "city": "Santiago de Chile",
@@ -62,7 +52,7 @@
         "username": "Immo",
         "mood": null,
         "title": "When visiting, make sure to befriend the locals",
-        "img": "https://cdn.pixabay.com/photo/2016/11/20/08/34/buildings-1842205_960_720.jpg"
+        "img": "https://cdn.pixabay.com/photo/2016/05/27/19/14/olympiad-in-brasil-1420476_960_720.jpg"
     }
 
 
