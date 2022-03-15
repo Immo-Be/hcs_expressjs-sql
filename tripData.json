@@ -22,16 +22,6 @@
         "img": "https://cdn.pixabay.com/photo/2019/11/21/04/05/fall-4641619_960_720.jpg"
     },
 
-    {
-        "city": "Santiago de Chile",
-        "start": "2016-05-29",
-        "end": "2017-01-12",
-        "description": "Santiago de Chile lorem ipsum dolor sit amet. Sit inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
-        "username": "Immo",
-        "mood": null,
-        "title": "Student life in Chile is lit 🔥",
-        "img": "https://cdn.pixabay.com/photo/2021/06/01/16/15/island-6302137_960_720.jpg"
-    },
 
     {
         "city": "Lima",
@@ -53,6 +43,17 @@
         "mood": null,
         "title": "When visiting, make sure to befriend the locals",
         "img": "https://cdn.pixabay.com/photo/2016/05/27/19/14/olympiad-in-brasil-1420476_960_720.jpg"
+    },
+
+    {
+        "city": "Santiago de Chile",
+        "start": "2016-05-29",
+        "end": "2017-01-12",
+        "description": "Santiago de Chile lorem ipsum dolor sit amet. Sit inventore cupiditate assuma, delectus consectetur recusandae, tempore, aspernatur quia. Praesentium dolorum harum, enim incidunt non fuga.",
+        "username": "Immo",
+        "mood": null,
+        "title": "Student life in Chile is lit 🔥",
+        "img": "https://cdn.pixabay.com/photo/2021/06/01/16/15/island-6302137_960_720.jpg"
     }
 
 
