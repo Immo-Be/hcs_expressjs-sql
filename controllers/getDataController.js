@@ -9,11 +9,6 @@ async function root(req, res) {
     console.log("THERE WAS A GET WITH WEATHER REQUEST");
    let weatherArray = []
 
-//    let url = `https://api.openweathermap.org/data/2.5/weather?q=hamburg&units=metric&appid=${envWeather}`
-//    const result = await axios.get(url);
-
-//    console.log(reult)
-
     for (let i = 0; i < travelData.length; i++) {
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${travelData[i].city}&units=metric&appid=${envWeather}`
         result = await axios.get(url);
