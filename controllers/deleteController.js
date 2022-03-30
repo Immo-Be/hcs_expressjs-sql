@@ -1,11 +1,14 @@
-const travelData = require("../tripData.json")
+const DB = require("../database")
 
 function root(req, res) {
-    console.log("THERE WAS A POST REQUEST TO DELTE A TRIP");
-
-    const position = req.body.id -1
-    
-    travelData.splice(position, 1);
+    DB.pool.query(
+        "DELETE FROM travelData WHERE id = ?",
+        req.body.id,
+        (error, results, fields) => {
+          if (error) console.log(error);
+          console.log(results);
+        }
+      );
 
     res.json("Trip successfully deleted");
 };

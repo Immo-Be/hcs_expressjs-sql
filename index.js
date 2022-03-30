@@ -1,16 +1,4 @@
-// use the mysql package
-const mysql = require("mysql");
-// create a connection pool
-// with the pool we can re-use connections more easily
-const pool = mysql.createPool({
-  host: "sql11.freemysqlhosting.net",
-  user: "sql11482214",
-  password: "dAM5RhXlZg",
-  database: "travelData",
-  connectionLimit: 10,
-});
-
-
+require('dotenv').config()
 
 
 const express = require("express");
@@ -20,7 +8,7 @@ const deleteRouter = require("./routes/deleteRouter");
 const postRouter = require("./routes/postRouter");
 const getDataRouter = require("./routes/getDataRouter");
 const app = express();
-const travelData = require("./tripData.json")
+
 
 const port = process.env.PORT || 3002;
 
