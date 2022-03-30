@@ -1,3 +1,19 @@
+const envWeather = process.env.OPEN_WEATHER_API_KEY
+const axios = require('axios');
+const DB = require("../database")
+
+let dataToInsert = {
+    city: "",
+    country: "",
+    icon: "",
+    max_temp: 0,
+    lat: 0,
+    lon: 0,
+    weatherDescription: "",
+}
+
+
+
 function getWeatherData() {
 
     DB.pool.query("SELECT * FROM travelData" , async (error, results, fields) => {
@@ -7,9 +23,6 @@ function getWeatherData() {
           res.status(500).send({ ok: false, error: error });
         } else {
           console.log(results[0].city);
-          // return the data as json format
-          // all types are discarded when converting to json
-          // the column names are then the keys in the json file
           res.send({ ok: true, result: results });
           console.log(numOfTrips)
           numOfTrips = results[0].id
@@ -38,10 +51,7 @@ function getWeatherData() {
                 console.log(results);
                 }
             );
-    
-    
-        //     // index = results[i] -1
-    
+        
     
         };
         console.log(dataToInsert)
@@ -49,4 +59,8 @@ function getWeatherData() {
         }
       });
 
+}
+
+exports.module = {
+    getWeatherData
 }
