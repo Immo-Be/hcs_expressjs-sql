@@ -2,17 +2,6 @@ const axios = require('axios');
 const DB = require("../database")
 
 
-let dataToInsert = {
-    city: "",
-    country: "",
-    icon: "",
-    max_temp: 0,
-    lat: 0,
-    lon: 0,
-    weatherDescription: "",
-}
-
-
 
 function root(req, res) {
 
