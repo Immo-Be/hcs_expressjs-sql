@@ -41,7 +41,7 @@ async function root(req, res) {
 
     DB.pool.query(
         "INSERT INTO travelData SET ?",
-        dataToInsert,
+        tripData,
         (error, results, fields) => {
           if (error) console.log(error);
           console.log(tripData)
