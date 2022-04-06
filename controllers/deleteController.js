@@ -10,7 +10,6 @@ function root(req, res) {
             res.status(500).send({ ok: false, error: error })
           } else {
             res.send({ ok: true, result: results });
-            res.json("Trip successfully deleted");
           };
         }
       );
