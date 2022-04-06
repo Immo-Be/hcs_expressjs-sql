@@ -1,4 +1,3 @@
-const axios = require('axios');
 const DB = require("../database")
 
 function root(req, res) {
