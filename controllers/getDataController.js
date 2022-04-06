@@ -1,8 +1,6 @@
 const axios = require('axios');
 const DB = require("../database")
 
-
-
 function root(req, res) {
 
     DB.pool.query("SELECT * FROM travelData" , async (error, results, fields) => {

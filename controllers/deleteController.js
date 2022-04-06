@@ -5,12 +5,15 @@ function root(req, res) {
         "DELETE FROM travelData WHERE id = ?",
         req.body.id,
         (error, results, fields) => {
-          if (error) console.log(error);
-          console.log(results);
+          if (error) {
+            console.log(error);
+            res.status(500).send({ ok: false, error: error })
+          } else {
+            res.send({ ok: true, result: results });
+            res.json("Trip successfully deleted");
+          };
         }
       );
-
-    res.json("Trip successfully deleted");
 };
 
 module.exports = {

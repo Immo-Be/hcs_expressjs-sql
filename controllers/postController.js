@@ -43,12 +43,15 @@ async function root(req, res) {
         "INSERT INTO travelData SET ?",
         tripData,
         (error, results, fields) => {
-          if (error) console.log(error);
-          console.log(tripData)
+          if (error) {
+            console.log(error);
+            res.status(500).send({ ok: false, error: error })
+          } else {
+            res.send({ ok: true, result: results });
+            res.json("Trip successfully added");
+          };
         }
       );
-
-
 };
 
 module.exports = {
